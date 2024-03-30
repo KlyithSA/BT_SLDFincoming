@@ -1,0 +1,11 @@
+{
+    "TargetID" : "lancedef_mech_d4_dynamic_lightMedSupport",
+    "Instructions": [
+        {
+            "JSONPath": "$.LanceUnits[*].excludedUnitTagSet.items",
+            "Action": "ArrayAdd",
+            "Value": "unit_lance_sldf"
+        }
+    ]
+}
+

@@ -1,0 +1,11 @@
+{
+    "TargetID" : "lancedef_mech_d6_dynamic_SmallMedHeavyCavalry",
+    "Instructions": [
+        {
+            "JSONPath": "$.LanceUnits[*].excludedUnitTagSet.items",
+            "Action": "ArrayAdd",
+            "Value": "unit_lance_sldf"
+        }
+    ]
+}
+

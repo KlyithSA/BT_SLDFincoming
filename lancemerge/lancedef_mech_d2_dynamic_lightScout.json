@@ -1,0 +1,11 @@
+{
+      "TargetID" : "lancedef_mech_d2_dynamic_lightScout",
+    "Instructions": [
+        {
+            "JSONPath": "$.LanceUnits[*].excludedUnitTagSet.items",
+            "Action": "ArrayAdd",
+            "Value": "unit_lance_sldf"
+        }
+    ]
+}
+
