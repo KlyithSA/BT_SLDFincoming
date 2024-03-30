@@ -1,0 +1,11 @@
+{
+    "TargetID" : "lancedef_mixed_d9_dynamic_assaultBattle1",
+    "Instructions": [
+        {
+            "JSONPath": "$.LanceUnits[*].excludedUnitTagSet.items",
+            "Action": "ArrayAdd",
+            "Value": "unit_lance_sldf"
+        }
+    ]
+}
+

@@ -1,0 +1,11 @@
+{
+    "TargetID" : "lancedef_mixed_d2_dynamic_lightSupport",
+    "Instructions": [
+        {
+            "JSONPath": "$.LanceUnits[*].excludedUnitTagSet.items",
+            "Action": "ArrayAdd",
+            "Value": "unit_lance_sldf"
+        }
+    ]
+}
+

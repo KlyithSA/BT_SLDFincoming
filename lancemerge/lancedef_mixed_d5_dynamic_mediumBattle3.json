@@ -1,0 +1,11 @@
+{
+    "TargetID" : "lancedef_mixed_d5_dynamic_mediumBattle3",
+    "Instructions": [
+        {
+            "JSONPath": "$.LanceUnits[*].excludedUnitTagSet.items",
+            "Action": "ArrayAdd",
+            "Value": "unit_lance_sldf"
+        }
+    ]
+}
+
