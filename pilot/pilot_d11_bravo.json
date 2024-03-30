@@ -1,0 +1,59 @@
+{
+    "Description": {
+        "Id": "pilot_d11_bravo",
+        "Name": "Ace Mechwarrior",
+        "FirstName": "Ace Mechwarrior",
+        "LastName": "NONE",
+        "Callsign": "Ace Mechwarrior",
+        "Gender": "Female",
+        "factionID": "Davion",
+        "Age": 30,
+        "Details": "NONE",
+        "Icon": "Wildfire"
+    },
+    "BaseGunnery": "10",
+    "BonusGunnery": 0,
+    "BasePiloting": "6",
+    "BonusPiloting": 0,
+    "BaseGuts": "8",
+    "BonusGuts": 0,
+    "BaseTactics": "8",
+    "BonusTactics": 0,
+    "ExperienceUnspent": 0,
+    "ExperienceSpent": 0,
+    "Injuries": 0,
+    "Health": 3,
+    "LethalInjury": false,
+    "Incapacitated": false,
+    "Morale": 0,
+    "Voice": "f_overload01",
+    "abilityDefNames": [
+        "TraitDefHeadshotImmunity",
+        "AbilityDefGu5",
+        "AbilityDefP5",
+        "AbilityDefG5",
+        "AbilityDefG8",
+
+        "TraitDefUnsteadySet60",
+        "TraitDefHealthAddOne",
+        "TraitDefRefireReduceOne",
+        "TraitDefOverheatAddFifteen",
+        "TraitDefRefireReduceTwo",
+        "TraitDefOverheatAddThirty",
+        "TraitDefIndirectReduceOne",
+        "TraitDefMinRangeReduce45",
+        "TraitDefCalledShotImprove",
+        "TraitDefIndirectReduceTwo",
+        "TraitDefMinRangeReduce90"
+
+    ],
+    "AIPersonality": "Undefined",
+    "PilotTags": {
+        "items": [
+            "pilot_npc_dynamic",
+            "pilot_npc_d11"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "PilotCost": 0
+}

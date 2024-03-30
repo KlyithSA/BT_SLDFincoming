@@ -1,0 +1,20 @@
+{
+	"Name": "SLDF Incoming",
+	"Enabled": true,
+	"Description": "SLDF Mechs appear in random missions",
+	"Author": "klyith",
+	"Version": "1c",
+
+	"Manifest": [
+		{ "Type": "AdvancedJSONMerge", "Path": "mechmerge" },
+		{ "Type": "AdvancedJSONMerge", "Path": "tagmerge" },
+		{ "Type": "MechDef", "Path": "DLCmech", "ShouldMergeJSON": false, "AddToDB": true },
+		{ "Type": "LanceDef", "Path": "lance", "AddToDB": true },
+		{ "Type": "PilotDef", "Path": "pilot", "AddToDB": true },
+		{ "Type": "AdvancedJSONMerge", "Path": "lancemerge" },
+
+		{ "Type": "ItemCollectionDef", "Path": "itemcollection" },
+		{ "Type": "ChassisDef", "Path": "bonus/chassis", "AddToDB": true },
+		{ "Type": "MechDef", "Path": "bonus/mech", "AddToDB": true },
+	]
+}

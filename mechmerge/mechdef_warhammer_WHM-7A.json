@@ -1,0 +1,19 @@
+{
+    "TargetID": "mechdef_warhammer_WHM-7A",
+    "Instructions": [
+        {
+            "JSONPath": "MechTags.items",
+            "Action": "Replace",
+            "Value": [
+                "unit_mech",
+                "unit_heavy",
+                "unit_release",
+                "unit_ready",
+                "unit_lance_sldf",
+                "unit_role_brawler",
+                "unit_range_medium",
+                "unit_speed_low"
+            ]
+        }
+    ]
+}

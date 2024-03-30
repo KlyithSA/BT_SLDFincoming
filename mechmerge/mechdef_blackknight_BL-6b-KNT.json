@@ -1,0 +1,17 @@
+{
+    "TargetID": "mechdef_blackknight_BL-6b-KNT",
+    "Instructions": [
+        {
+            "JSONPath": "MechTags.items",
+            "Action": "Replace",
+            "Value": [
+                "KSBeta",
+                "unit_mech",
+                "unit_heavy",
+                "unit_lance_sldf",
+                "unit_role_brawler",
+                "unit_speed_low"
+            ]
+        }
+    ]
+}

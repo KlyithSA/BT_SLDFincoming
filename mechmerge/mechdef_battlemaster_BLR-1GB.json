@@ -1,0 +1,19 @@
+{
+    "TargetID": "mechdef_battlemaster_BLR-1GB",
+    "Instructions": [
+        {
+            "JSONPath": "MechTags.items",
+            "Action": "Replace",
+            "Value": [
+                "unit_mech",
+                "unit_assault",
+                "unit_release",
+                "unit_lance_sldf",
+                "unit_role_brawler",
+                "unit_range_medium",
+                "unit_hot",
+                "unit_armor_high"
+            ]
+        }
+    ]
+}

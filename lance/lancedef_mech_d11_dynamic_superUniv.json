@@ -1,0 +1,156 @@
+{
+  "Description": {
+    "Id": "lancedef_mech_d11_dynamic_superUniv",
+    "Name": "Dynamic Dif 11 Assault Universal",
+    "Details": "",
+    "Icon": "",
+    "Cost": 0,
+    "Rarity": 0,
+    "Purchasable": false
+  },
+  "Difficulty": 11,
+  "LanceTags": {
+    "items": [
+      "lance_bracket_high",
+      "lance_type_dynamic",
+      "lance_type_battle",
+      "lance_type_cavalry",
+      "lance_type_fire",
+      "lance_type_recon",
+      "lance_type_support",
+      "lance_type_assault",
+      "lance_type_mech",
+      "lance_type_notallvehicles"
+    ],
+    "tagSetSourceFile": "Tags/LanceTags"
+  },
+  "LanceUnits": [
+    {
+      "unitType": "Mech",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "unitTagSet": {
+        "items": [
+          "unit_assault",
+          "unit_lance_tank",
+          "unit_mech"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_lance_vanguard",
+          "unit_noncombatant",
+          "unit_urbie",
+          "unit_lance_sldf"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [
+          "pilot_npc_d11"
+        ],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "unitTagSet": {
+        "items": [
+          "unit_assault",
+          "unit_jumpOK",
+          "unit_mech"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_noncombatant",
+          "unit_urbie",
+          "unit_lance_sldf"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [
+          "pilot_npc_d11"
+        ],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "unitTagSet": {
+        "items": [
+          "unit_assault",
+          "unit_lance_support",
+          "unit_mech"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+          "unit_lance_assassin",
+          "unit_noncombatant",
+          "unit_urbie",
+          "unit_lance_sldf"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [
+          "pilot_npc_d10"
+        ],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    },
+    {
+      "unitType": "Mech",
+      "unitId": "Tagged",
+      "pilotId": "Tagged",
+      "unitTagSet": {
+        "items": [
+          "unit_assault",
+          "unit_mech"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "excludedUnitTagSet": {
+        "items": [
+      "unit_speed_low",
+          "unit_lance_assassin",
+          "unit_noncombatant",
+          "unit_urbie",
+          "unit_lance_sldf"
+        ],
+        "tagSetSourceFile": "Tags/UnitTags"
+      },
+      "pilotTagSet": {
+        "items": [
+          "pilot_npc_d10"
+        ],
+        "tagSetSourceFile": "Tags/PilotTags"
+      },
+      "excludedPilotTagSet": {
+        "items": null,
+        "tagSetSourceFile": "Tags/PilotTags"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "TargetID": "mechdef_zeus_ZEU-5T",
+    "Instructions": [
+        {
+            "JSONPath": "MechTags.items",
+            "Action": "Replace",
+            "Value": [
+                "unit_mech",
+                "unit_assault",
+                "unit_lance_sldf",
+                "unit_role_brawler",
+                "unit_release",
+                "unit_range_long",
+                "unit_indirectFire"
+            ]
+        }
+    ]
+}

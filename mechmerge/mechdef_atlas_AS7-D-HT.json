@@ -1,0 +1,18 @@
+{
+    "TargetID": "mechdef_atlas_AS7-D-HT",
+    "Instructions": [
+        {
+            "JSONPath": "MechTags.items",
+            "Action": "Replace",
+            "Value": [
+                "unit_mech",
+                "unit_assault",
+                "unit_release",
+                "unit_lance_sldf",
+                "unit_role_brawler",
+                "unit_indirectFire"
+            ]
+        }
+    ]
+}
+
